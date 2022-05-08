@@ -1,0 +1,28 @@
+.btn {
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.2s ease-in;
+}
+.btn--no-body {
+  border: 1px solid #172339;
+  color: #172339;
+}
+.btn--no-body:hover {
+  background: #172339;
+  border: 1px solid #172339;
+  border-radius: 6px;
+  color: #faf8f6;
+}
+.btn--medium {
+  font-size: 14px;
+  padding: 12px 15px;
+}
+.btn--large {
+  font-size: 18px;
+  padding: 15px 31px;
+}
+.btn--dark {
+  background-color: #172339;
+  color: #faf8f6;
+}
