@@ -1,8 +1,12 @@
 .App {
   text-align: center;
-  padding: 24px 16px 80px;
+  padding: 24px 0 80px;
   background-color: #faf8f6;
 }
 .text--bold {
   font-weight: 900;
+}
+
+.padding-container {
+  padding: 0 16px;
 }

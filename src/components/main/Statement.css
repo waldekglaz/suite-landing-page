@@ -1,0 +1,50 @@
+.statement {
+  background-color: #172339;
+  border-radius: 15px;
+  color: #f3ede7;
+  margin-top: 12.8125rem;
+  padding-bottom: 4rem;
+}
+.statement__img {
+  margin-top: -10.6125rem;
+  margin-bottom: 2.5rem;
+}
+.statement__pattern {
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+}
+.statement__title {
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: -0.42px;
+  margin-bottom: 2.5rem;
+  color: #faf8f6;
+}
+.figure {
+  margin: 0;
+}
+.statement__text {
+  font-size: 1.125rem;
+  line-height: 32px;
+  letter-spacing: 0.09px;
+  color: #f3ede7;
+  margin: 0 0 2.5rem;
+}
+.statement__author {
+  display: flex;
+  flex-direction: column;
+  color: #faf8f6;
+  font-weight: bold;
+  font-size: 1.125rem;
+  letter-spacing: -0.18px;
+  line-height: 32px;
+}
+.statement__author cite {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  letter-spacing: 2.5px;
+  color: #f3ede7;
+  line-height: 26px;
+}

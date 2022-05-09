@@ -1,0 +1,13 @@
+.counter {
+  margin-bottom: 2rem;
+}
+.counter__number {
+  color: #172339;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.counter__desc {
+  text-transform: uppercase;
+  color: #49566d;
+  letter-spacing: 2.5px;
+}

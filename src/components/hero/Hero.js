@@ -8,7 +8,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero padding-container">
       <img
         className="hero__pattern"
         src={patternLine1}
@@ -25,7 +25,7 @@ const Hero = () => {
       <Button classes="btn btn--dark btn--large" />
       <picture>
         <source srcset={heroImagePc} media="(min-width: 1440px)"></source>
-        <source srcset={heroImageTablet} media="(min-width: 800px)"></source>
+        <source srcset={heroImageTablet} media="(min-width: 768px)"></source>
 
         <img className="hero__img" src={heroImage} alt="suit graphic" />
       </picture>
