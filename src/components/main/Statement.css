@@ -48,3 +48,28 @@
   color: #f3ede7;
   line-height: 26px;
 }
+@media (min-width: 768px) {
+  .statement {
+    margin-top: 35.54vw;
+  }
+  .statement__pattern {
+    width: 6.38vw;
+  }
+  .statement__img {
+    width: 32.815vw;
+    margin-top: -23.567vw;
+  }
+  .statement__title {
+    font-size: 5.208vw;
+  }
+  .statement__text {
+    font-size: 2.34375vw;
+    line-height: 4.166vw;
+  }
+  .statement__author {
+    font-size: 2.34375vw;
+  }
+  .statement__author cite {
+    font-size: 2.0833vw;
+  }
+}

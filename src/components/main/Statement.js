@@ -7,7 +7,7 @@ const Statement = () => {
   return (
     <section className="statement">
       <picture>
-        <source srcset={jeremyLarge} media="(min-width: 1440px)"></source>
+        <source srcset={jeremyLarge} media="(min-width: 768px)"></source>
 
         <img className="statement__img" src={jeremySmall} alt="suit graphic" />
       </picture>

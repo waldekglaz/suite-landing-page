@@ -1,0 +1,6 @@
+@media (min-width: 768px) {
+  .counters {
+    display: flex;
+    justify-content: space-around;
+  }
+}

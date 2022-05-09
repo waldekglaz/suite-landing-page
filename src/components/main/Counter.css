@@ -11,3 +11,12 @@
   color: #49566d;
   letter-spacing: 2.5px;
 }
+@media (min-width: 768px) {
+  .counter {
+    margin-bottom: 0;
+  }
+  .counter__number {
+    font-size: 6.25vw;
+    line-height: 7.29vw;
+  }
+}
