@@ -3,3 +3,6 @@
   padding: 24px 16px 80px;
   background-color: #faf8f6;
 }
+.text--bold {
+  font-weight: 900;
+}

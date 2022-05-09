@@ -1,0 +1,26 @@
+.hero {
+  position: relative;
+  text-align: left;
+  padding-bottom: 3.5rem;
+}
+.hero__pattern {
+  width: 151px;
+  position: absolute;
+  left: 9.5rem;
+  top: -1.2rem;
+}
+.hero__title {
+  font-weight: 400;
+  font-size: 2.375rem;
+  line-height: 44px;
+  letter-spacing: -0.54px;
+}
+.hero__text {
+  color: #49566d;
+  line-height: 28px;
+  letter-spacing: 0.09px;
+  margin-bottom: 2rem;
+}
+.hero .btn {
+  margin-bottom: 4.355rem;
+}

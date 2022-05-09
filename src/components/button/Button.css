@@ -1,8 +1,8 @@
 .btn {
   text-decoration: none;
+  display: inline-block;
   border-radius: 6px;
   font-weight: bold;
-  transition: 0.2s ease-in;
 }
 .btn--no-body {
   border: 1px solid #172339;
@@ -20,9 +20,12 @@
 }
 .btn--large {
   font-size: 18px;
-  padding: 15px 31px;
+  padding: 18px 31px;
 }
 .btn--dark {
   background-color: #172339;
   color: #faf8f6;
+}
+.btn--dark:hover {
+  background: linear-gradient(135deg, #a060ff 0%, #cb30e3 49.21%, #ffa84e 100%);
 }
