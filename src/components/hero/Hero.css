@@ -24,3 +24,42 @@
 .hero .btn {
   margin-bottom: 4.355rem;
 }
+.hero__img {
+  width: 100%;
+}
+@media (max-width: 375px) {
+  .hero__pattern {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .hero {
+    padding: 88px 40px;
+  }
+  .hero__text-container {
+    position: absolute;
+  }
+  .hero__title {
+    font-size: 7.291vw;
+    line-height: 8.333vw;
+    letter-spacing: -0.78px;
+    padding-right: 9.76rem;
+  }
+  .hero__pattern {
+    width: 30vw;
+    left: 29vw;
+    top: 1vw;
+  }
+  .hero__text {
+    font-size: 2.1vw;
+    line-height: 3.645vw;
+    width: 45.57vw;
+  }
+  .hero__img {
+    display: block;
+    width: 36.6vw;
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: -11.45vw;
+  }
+}

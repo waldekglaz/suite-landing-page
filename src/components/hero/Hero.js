@@ -9,20 +9,23 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <div className="hero padding-container">
-      <img
-        className="hero__pattern"
-        src={patternLine1}
-        alt="decorative pattern"
-      />
-      <h1 className="hero__title">
-        A <span className="text--bold">super solution</span> for your{" "}
-        <span className="text--bold">business.</span>
-      </h1>
-      <p className="hero__text">
-        Our marketing and sales automations help you scale your outreach to get
-        more leads for your company.
-      </p>
-      <Button classes="btn btn--dark btn--large" />
+      <div className="hero__text-container">
+        <img
+          className="hero__pattern"
+          src={patternLine1}
+          alt="decorative pattern"
+        />
+        <h1 className="hero__title">
+          A <span className="text--bold">super solution</span> for your{" "}
+          <span className="text--bold">business.</span>
+        </h1>
+        <p className="hero__text">
+          Our marketing and sales automations help you scale your outreach to
+          get more leads for your company.
+        </p>
+        <Button classes="btn btn--dark btn--large" />
+      </div>
+
       <picture>
         <source srcset={heroImagePc} media="(min-width: 1440px)"></source>
         <source srcset={heroImageTablet} media="(min-width: 768px)"></source>
