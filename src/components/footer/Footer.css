@@ -1,0 +1,13 @@
+.footer {
+  padding: 3.5rem 7.75rem;
+}
+.footer__text {
+  font-size: 0.9375rem;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  color: #49566d;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+}
