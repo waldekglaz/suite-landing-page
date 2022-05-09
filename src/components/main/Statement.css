@@ -50,7 +50,8 @@
 }
 @media (min-width: 768px) {
   .statement {
-    margin-top: 35.54vw;
+    margin: 35.54vw auto 0;
+    width: 89.7135vw;
   }
   .statement__pattern {
     width: 6.38vw;
@@ -68,6 +69,7 @@
   }
   .statement__author {
     font-size: 2.34375vw;
+    line-height: 4.166vw;
   }
   .statement__author cite {
     font-size: 2.0833vw;

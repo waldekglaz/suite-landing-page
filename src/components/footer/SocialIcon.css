@@ -1,0 +1,8 @@
+@media (min-width: 768px) {
+  .social {
+    margin-right: 1.75rem;
+  }
+  .social:last-child {
+    margin-right: 0;
+  }
+}

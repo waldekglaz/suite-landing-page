@@ -11,3 +11,12 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9.375vw 3.9vw;
+  }
+}
