@@ -38,6 +38,7 @@
   }
   .hero__text-container {
     position: absolute;
+    left: 4.3%;
   }
   .hero__title {
     font-size: 7.291vw;

@@ -1,5 +1,6 @@
 .footer {
   padding: 3.5rem 33%;
+  background-color: #f3ede7;
 }
 .footer__text {
   font-size: 0.9375rem;
@@ -17,6 +18,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 9.375vw 3.9vw;
+    padding: 69.79166vw 4.3% 4.5rem;
+  }
+}
+@media (min-width: 1000px) {
+  .footer {
+    padding-top: 56vw;
+  }
+}
+@media (min-width: 1200px) {
+  .footer {
+    padding-top: 48vw;
   }
 }

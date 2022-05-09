@@ -50,8 +50,11 @@
 }
 @media (min-width: 768px) {
   .statement {
-    margin: 35.54vw auto 0;
-    width: 89.7135vw;
+    /* margin: 35.54vw auto 0; */
+    position: absolute;
+    left: 4.3%;
+    top: 20vw;
+    width: 92vw;
   }
   .statement__pattern {
     width: 6.38vw;
