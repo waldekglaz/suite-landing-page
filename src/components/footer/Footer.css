@@ -31,3 +31,8 @@
     padding-top: 48vw;
   }
 }
+@media (min-width: 1440px) {
+  .footer {
+    padding: 25vw 11.5277vw 5vw;
+  }
+}

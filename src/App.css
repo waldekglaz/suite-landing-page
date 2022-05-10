@@ -17,4 +17,26 @@
   .padding-container {
     padding: 0 5.2%;
   }
+  .counters {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 64.1927vw;
+  }
+}
+@media (min-width: 1440px) {
+  .padding-container {
+    padding: 0 11.5277vw;
+  }
+  .flex-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .counters {
+    flex-direction: column;
+    margin-bottom: 0;
+    margin-top: 4vw;
+    margin-left: -11.5277vw;
+    max-height: 36vw;
+  }
 }

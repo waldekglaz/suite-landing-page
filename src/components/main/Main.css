@@ -2,10 +2,4 @@
   .main {
     position: relative;
   }
-  .counters {
-    display: flex;
-    justify-content: space-around;
-
-    margin-bottom: 64.1927vw;
-  }
 }

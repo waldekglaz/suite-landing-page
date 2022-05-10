@@ -20,3 +20,16 @@
     line-height: 7.29vw;
   }
 }
+@media (min-width: 1440px) {
+  .counter {
+    margin-bottom: 4.375vw;
+  }
+  .counter__number {
+    font-size: 3.333vw;
+    line-height: 3.888vw;
+  }
+  .counter__desc {
+    font-size: 1.11vw;
+    line-height: 1.8055vw;
+  }
+}

@@ -53,7 +53,7 @@
     /* margin: 35.54vw auto 0; */
     position: absolute;
     left: 4.3%;
-    top: 20vw;
+    top: -54.21vw;
     width: 92vw;
   }
   .statement__pattern {
@@ -76,5 +76,42 @@
   }
   .statement__author cite {
     font-size: 2.0833vw;
+  }
+}
+@media (min-width: 1440px) {
+  .statement {
+    width: 77.01388vw;
+    text-align: left;
+    margin: 0;
+    left: 11.5277vw;
+    top: -22.5vw;
+    padding: 3.1vw 0;
+  }
+  .statement__pattern {
+    width: 4.44vw;
+    margin-top: -30vw;
+  }
+  .statement__title {
+    font-size: 3.333vw;
+    margin-left: 43.0277vw;
+    margin-top: -6.2vw;
+  }
+  .statement__text {
+    margin-left: 31.0277vw;
+    font-size: 1.388vw;
+    line-height: 1.93055;
+  }
+  .statement__author {
+    font-size: 1.25vw;
+    margin-left: 31.0277vw;
+    line-height: 2.22vw;
+  }
+  .statement__author cite {
+    font-size: 1.11vw;
+  }
+  .statement__img {
+    width: 24.93055vw;
+    margin-left: 8.40277vw;
+    margin-top: -6.125vw;
   }
 }

@@ -64,3 +64,34 @@
     margin-top: -11.45vw;
   }
 }
+@media (min-width: 1440px) {
+  .hero {
+    padding: 4.65277vw 11.5277vw 33.26388vw;
+    /* margin-bottom: 33.26388vw; */
+  }
+  .hero__text-container {
+    top: 0;
+    left: 11.5277vw;
+    width: 44.09vw;
+  }
+  .hero__pattern {
+    width: 19.93055vw;
+    left: 20.5vw;
+    top: 1vw;
+  }
+  .hero__title {
+    font-size: 5vw;
+    padding: 0;
+    line-height: 5.4166vw;
+    margin-bottom: 2.777vw;
+  }
+  .hero__text {
+    font-size: 1.25vw;
+    width: 24.3055vw;
+    line-height: 2.222vw;
+  }
+  .hero__img {
+    width: 24.3055vw;
+    margin-left: 32.9166vw;
+  }
+}
